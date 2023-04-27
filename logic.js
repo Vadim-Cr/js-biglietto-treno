@@ -23,7 +23,7 @@ if (passengerAge < 18) {
 console.log(somma);
 
 // output con soli due decimali + Messaggio finale
-message = `l'importo totale per la tua tratta è di ${ somma.toFixed(2)} `;
+message = `L'importo totale per la tua tratta è di ${ somma.toFixed(2)} `;
 
 // risultato finale
 document.getElementById("my_id").innerHTML = message;
